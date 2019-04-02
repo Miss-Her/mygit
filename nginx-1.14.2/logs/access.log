@@ -1,7 +1,0 @@
-127.0.0.1 - - [27/Dec/2018:16:10:00 +0800] "GET / HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
-127.0.0.1 - - [27/Dec/2018:16:10:00 +0800] "GET /favicon.ico HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
-127.0.0.1 - - [27/Dec/2018:16:20:13 +0800] "GET /index HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
-127.0.0.1 - - [27/Dec/2018:16:20:22 +0800] "GET /index.html HTTP/1.1" 200 612 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
-127.0.0.1 - - [27/Dec/2018:16:36:00 +0800] "GET /opt/www HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
-127.0.0.1 - - [27/Dec/2018:16:36:32 +0800] "GET /opt/www/ HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
-127.0.0.1 - - [27/Dec/2018:16:36:40 +0800] "GET /opt/www/index.html HTTP/1.1" 404 169 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0"
