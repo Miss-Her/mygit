@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gnxy.eureka.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.gnxy.eureka.domin.UserInfo">
+    <result column="stuno" jdbcType="INTEGER" property="stuNo" />
+    <result column="stuname" jdbcType="VARCHAR" property="stuName" />
+    <result column="stuage" jdbcType="INTEGER" property="stuAge" />
+    <result column="graname" jdbcType="VARCHAR" property="graName" />
+  </resultMap>
+
+  <select id="queryUser" parameterType="java.lang.Integer" resultType="string">
+    select stuname from userinfo where stuno = #{stuno}
+  </select>
+
+  <select id="queryUserInfo" resultType="int">
+    select stuno from userinfo order by stuno desc limit 1
+  </select>
+
+  <insert id="insertUser" parameterType="com.gnxy.eureka.domin.UserInfo">
+     insert into userinfo(stuno,stuname,stuage,graname) values (#{stuNo},#{stuName},#{stuAge},#{graName})
+  </insert>
+
+</mapper>
